@@ -1,0 +1,7 @@
+# .gitignore
+venv/
+*.pyc
+__pycache__/
+.env          ← This prevents committing secrets!
+db.sqlite3
+*.log
